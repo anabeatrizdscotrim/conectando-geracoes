@@ -1,0 +1,210 @@
+html{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .container {
+      width: 90%;
+      max-width: 1120px;
+      margin: 0 auto;
+      position: relative;
+  }
+  
+  .flex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  
+  header {
+      padding: 27px 0;
+  }
+  
+  .logo{
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+  }
+  
+  .logo-img {
+    width: 30px; /* Ajuste o tamanho da logo */
+    height: auto;
+    margin-right: 10px; /* Espaço entre a logo e o texto */
+  }
+  
+  .logo span{
+      color: #abc1c6;
+  }
+  
+  .header_menu li {
+      margin-left: 40px;
+  }
+  
+  .header_menu li a {
+      transition: .3s;
+  }
+  
+  .header_menu li a:hover {
+      color: #abc1c6;
+      transition: .3s;
+  }
+  
+  #hero {
+    background-image: url(../imagem/ideia2.jpg);  
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+  }
+  
+  #hero::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.2;
+      z-index: 1;
+  }
+  
+  .hero_inner {
+      z-index: 2;
+      color:#ffffff;
+      width: 100%;
+      text-align: center;
+  }
+  
+  .hero_inner p {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 16px;
+  }
+  
+  .hero_inner h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 30px;
+  }
+  
+  #introducao {
+      margin-bottom: 120px;
+  }
+  
+  .title {
+      font-size: 20px;
+      font-weight: 500;
+      color: #abc1c6;
+      margin-bottom: 40px;
+  }
+  
+  #introducao h3 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 60px;
+  }
+  
+  .column-2 {
+      width: 48%;
+  }
+  
+  .text {
+      line-height: 2;
+  }
+  
+  .concept-img {
+    background-image: url(../imagem/global-network.png);  
+    background-position: center;
+    background-size: cover;
+    width: 440px; 
+    height: 440px; 
+  }
+  
+  /*footer*/
+  
+  .footer span {
+      color: #abc1c6;
+  }
+  
+  .footer {
+      align-items: center;
+  }
+  
+  footer {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .copyright {
+      font-size: 12px;
+      margin-top: 20px;
+  }
+  
+  
+  /*sobre-nos*/
+  
+  .section2 .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .section2 .col {
+      width: 39%;
+  }
+  
+  .section2 h1 {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 47px;
+      margin-top: 47px;
+  }
+  
+  .section2 p {
+      margin-bottom: 47px;
+  }
+  
+  .section2 a {
+      font-weight: 700;
+      display: inline-block;
+      background-color: #abc1c6;
+      color: #ffffff;
+      padding: 12px 30px 15px;
+      border-radius: 100px;
+  }
+  
+  .section3 {
+      padding: 58px 0 78px;
+  }
+  
+  .section3 .container {
+      max-width: 660px;
+      background-color: #e9e8e6;
+      border-radius: 20px;
+      padding: 59px 71px 74px;
+  }
+  
+  .section3 h2 {
+      font-size: 36px;
+      font-weight: 700;
+  }
+  
+  .section3 .heading {
+      font-size: 14px;
+      font-weight: 700;
+      color: #abc1c6;
+      margin-bottom: 22px;
+  }
+  
+  .section3 .text { 
+      line-height: 1.8;
+  }
