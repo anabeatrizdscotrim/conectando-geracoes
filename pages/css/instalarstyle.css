@@ -1,9 +1,9 @@
-html{
+html {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-  }
+}
 
 .container {
     width: 90%;
@@ -23,19 +23,21 @@ header {
     padding: 27px 0;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -0.04em;
 }
 
 .logo-img {
-  width: 30px; /* Ajuste o tamanho da logo */
-  height: auto;
-  margin-right: 10px; /* Espaço entre a logo e o texto */
+    width: 30px;
+    /* Ajuste o tamanho da logo */
+    height: auto;
+    margin-right: 10px;
+    /* Espaço entre a logo e o texto */
 }
 
-.logo span{
+.logo span {
     color: #abc1c6;
 }
 
@@ -99,6 +101,16 @@ footer {
 }
 
 .tutorial-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+li.open {
+    list-style: dis;
+}
+
+ol {
     font-size: 18px;
     line-height: 1.6;
     color: #555;
