@@ -1,8 +1,9 @@
 html{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 400;
     font-style: normal;
+    font-size: 16px;
   }
 
 .container {
@@ -99,7 +100,11 @@ footer {
 }
 
 .tutorial-section p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.7;
     color: #555;
+}
+
+b, strong {
+    font-weight: 900;
 }
